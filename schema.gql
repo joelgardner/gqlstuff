@@ -1,0 +1,8 @@
+type DatabaseConnection {
+  id: ID!
+  port: Int
+  host: String
+  username: String
+  password: String
+  database: String
+}
